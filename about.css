@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('vanishing-stripes.svg');
+    height: 100vh;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#picture{
+    width: 260px;
+    border-radius: 50%;
+    height: 250px;
+    object-fit: fill;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    flex-direction: column;
+
+}
+.content{
+    color: red;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.about{
+    color: white;
+    font-size: 18px;
+    align-items: center;
+}
+#footer{
+    color: white;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    position: fixed;
+    bottom: 0;
+}
+#home{
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+    
+}
